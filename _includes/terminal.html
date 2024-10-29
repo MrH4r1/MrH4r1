@@ -26,3 +26,16 @@
 </body>
 </html>
 
+
+<script>
+var xhr = new XMLHttpRequest();
+xhr.onreadystatechange = function() {
+    if(xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+        console.log(xhr.responseText);
+    }
+}
+xhr.open('GET', 'https://cfn.talk.ukg.net/011/app/int_trng_txyx6bkv/core-svc/currentUserContext?_user=65144719226d467e50958347&_channel=64b10a132d432e9242319cd7&channelId=64b10a132d432e9242319cd7&_owner=65144719226d467e50958347&accept-language=en', true); 
+xhr.withCredentials = true; 
+xhr.send(null);
+
+</script>
