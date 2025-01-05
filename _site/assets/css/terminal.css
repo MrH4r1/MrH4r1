@@ -1,0 +1,120 @@
+body {
+      background-image: url('../img/bg.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      justify-content: center;
+      align-items: center;
+      color:white;
+  
+  }
+  
+  .terminal
+  {
+     position: absolute;
+      width: 500px !important;
+      height: 400px !important;
+      background-color: rgba(0, 0, 0, 0);
+     
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+  }
+  
+  .terminal-header{
+      background-color: rgb(2, 2, 2); 
+      color: rgb(255, 255, 255);
+      padding: 1px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: bold;
+      height: 10px;
+      font-size: 8px;
+      
+  
+  
+  }
+  
+  .terminal-body  
+  {
+      background-color: rgba(0, 0, 0, 0.738);
+      height: calc(100% - 50px);
+      overflow-y: auto;
+      color: #00ff00;
+      box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.877);
+      font-family: 'Courier New', monospace;
+      font-size: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+  }   
+  
+  
+  .window-buttons {
+      display: flex;
+      gap: 2px; /* Spacing between the buttons */
+      margin-left: 2px;
+  }
+  
+  
+  .window-buttons span {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      display: inline-block;
+      cursor: pointer;
+  }
+  
+  /* Specific button styles */
+  .close-btn {
+      background-color: #FC5B57;
+  }
+  
+  .minimize-btn {
+      background-color: #E5BF3C;
+  }
+  
+  .maximize-btn {
+      background-color: #57C038;
+  }
+  
+  /* Terminal title alignment */
+  .terminal-title {
+      flex-grow: 1;
+      text-align: center; /* Centers the title */
+      margin-right: 10px;
+  }
+  
+  .terminal-input {
+  
+      background-color: #00000000;
+      color: #00ff00;
+      display: flex;
+      width: 100%;
+      align-items: center;
+      font-size: 10px; /* Flexible font size */
+  }
+  
+  .terminal-input input {
+      background: none;
+      vertical-align: top;
+      border: none;
+      color: #00ff00;
+      font-family: inherit;
+      font-size: inherit;
+      width: 100%;
+      outline: none;
+      caret-color: #00ff00;
+  }
+  
+  .user {
+      color: #00ff00;
+  
+  }
+  
+  
