@@ -56,8 +56,9 @@ document.addEventListener('DOMContentLoaded', function () {
     `;
     const commands = {
         'whoami': art,
-        'help': 'Available commands: whoami, help, clear',
-        'clear': 'clear'
+        'help': 'Available commands: help, whoami,blog, clear',
+        'clear': 'clear',
+        'blog' : 'blog'
     };
 
     function createNewInput() {
@@ -98,7 +99,13 @@ document.addEventListener('DOMContentLoaded', function () {
                 terminalBody.innerText = ''; // Clear terminal output
                 createNewInput(); // Create new input after clear
                 return;
-            } else {
+            }
+            else if (command === 'blog') {
+                window.location.href = 'blog'; 
+                return;
+              
+            }
+             else {
                 commandOutput = commands[command];
             }
         } else {
