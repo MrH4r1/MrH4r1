@@ -57,14 +57,14 @@ body {
   
   .window-buttons {
       display: flex;
-      gap: 1px; /* Spacing between the buttons */
-      margin-left: 1px;
+      gap: 2px; /* Spacing between the buttons */
+      margin-left: 2px;
   }
   
   
   .window-buttons span {
-      width: 6px;
-      height: 6px;
+      width: 8px;
+      height: 8px;
       border-radius: 50%;
       display: inline-block;
       cursor: pointer;
