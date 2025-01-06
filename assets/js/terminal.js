@@ -49,10 +49,13 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // Command handling functionality
+
+    const art = `I am the shadow that lurks in the forgotten corners of the digital world, a "human bean" lost in the chaos of constant learning and unrelenting curiosity. A newbie by label, but in the depths of the underground, I am reborn again and again—an eternal student, forever fumbling through the wreckage of broken systems. Web technologies are my playground, where I dig into the dirt, not to build, but to break, to uncover the rot beneath the surface. I wear the mask of ignorance, knowing that every discovery is just another step deeper into the abyss. I am the darkness, burning, rebuilding, and forever chasing the unknown.\n
+    `;
     const commands = {
-        'hello': 'Hello, user!',
+        'whoami': art,
         'date': new Date().toString(),
-        'help': 'Available commands: hello, date, help, clear',
+        'help': 'Available commands: whoami, help, clear',
         'clear': 'clear'
     };
 
@@ -62,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         const userSpan = document.createElement('span');
         userSpan.classList.add('user');
-        userSpan.textContent = 'h4r1@kali:~$';
+        userSpan.textContent = 'H4r1@kali:~$';
 
         const inputField = document.createElement('input');
         inputField.type = 'text';
@@ -91,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (commands[command]) {
             if (command === 'clear') {
-                terminalBody.innerHTML = ''; // Clear terminal output
+                terminalBody.innerText = ''; // Clear terminal output
                 createNewInput(); // Create new input after clear
                 return;
             } else {
