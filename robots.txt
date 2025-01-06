@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://mrh4r1.com//sitemap.xml
+Sitemap: //sitemap.xml
