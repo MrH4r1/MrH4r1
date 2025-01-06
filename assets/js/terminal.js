@@ -50,12 +50,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Command handling functionality
 
-    const art = `I am the shadow that lurks in the forgotten corners of the digital world, 
-    a "human bean" lost in the chaos of constant learning and unrelenting curiosity. 
-    A newbie by label, but in the depths of the underground, 
-    I am reborn again and again—an eternal student, forever fumbling through the wreckage of broken systems.
-     Web technologies are my playground, where I dig into the dirt, not to build, but to break, to uncover the rot beneath the surface. 
-     I wear the mask of ignorance, knowing that every discovery is just another step deeper into the abyss. I am the darkness, burning, rebuilding, and forever chasing the unknown.\n
+    const art = `I am the shadow in the digital abyss, a nameless specter in the underground. A hacker, not by title, but by instinct—driven by the thirst to break, to breach, and to understand what others fear to touch. I am a "newbie" by choice, for in the darkness, there is always more to learn. Web technologies, the veins of the digital world, are my playground, and the underground is where I sharpen my skills.
+
+ My mission is not to destroy, but to protect, to expose vulnerabilities before they can be exploited. I am the chaos in the system, the glitch in the matrix, the one who watches and waits.
     `;
     const commands = {
         'whoami': art,
